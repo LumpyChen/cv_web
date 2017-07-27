@@ -1,0 +1,48 @@
+.switch-down-enter {
+  top: -100%;
+  background: #58B2DC;
+  z-index: 99;
+}
+
+.switch-down-enter.switch-down-enter-active {
+  top: 0;
+  background: #005CAF;
+  transition: top 1000ms ease-out, background 1000ms ease-out;
+  z-index: 99;
+}
+
+.switch-down-exit {
+  top: -100%;
+  background: #005CAF;
+}
+
+.switch-down-exit.switch-down-exit-active {
+  top: 0;
+  background: #58B2DC;
+  transition: top 1000ms ease-out, background 1000ms ease-out;
+}
+
+
+.switch-up-enter {
+  top: 100%;
+  background: #58B2DC;
+  z-index: 99;
+}
+
+.switch-up-enter.switch-up-enter-active {
+  top: 0;
+  background: #005CAF;
+  transition: top 1000ms ease-out, background 1000ms ease-out;
+  z-index: 99;
+}
+
+.switch-up-exit {
+  top: -100%;
+  background: #005CAF;
+}
+
+.switch-up-exit.switch-up-exit-active {
+  top: -200%;
+  background: #58B2DC;
+  transition: top 1000ms ease-out, background 1000ms ease-out;
+}

@@ -1,0 +1,23 @@
+.internship .title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.internship .date {
+  margin-top: .5rem;
+}
+
+.internship .date span {
+  color: #FFC408;
+  font-family: DIN;
+  font-weight: bold;
+}
+
+.internship .company {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.internship .work {
+  font-size: .9rem;
+}

@@ -1,0 +1,20 @@
+.homepage .name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.homepage .job {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.homepage .tip {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #FFC408;
+}
+
+.homepage .link {
+  line-height: 1.8rem;
+  height: 1.8rem;
+}

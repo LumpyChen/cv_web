@@ -1,0 +1,51 @@
+.project .title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.project .container {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.project .container>div {
+  flex: 1 1 8rem;
+  margin: .5rem 1rem 0 1rem;
+  max-height: 6rem;
+  overflow: hidden;
+}
+
+.project .container .name {
+  color: #FFC408;
+  font-weight: bold;
+  margin-bottom: .4rem;
+}
+
+.project .container .icon{
+  display: inline-block;
+  background-color: #FFC408;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  width: 1.6rem;
+  border-radius: .8rem;
+  margin-left: .5rem;
+}
+
+.project .container .icon a {
+  color: #005CAF;
+}
+
+.project .container .name .en {
+  color: #FFC408;
+}
+
+.project .container .work {
+  font-size: .7rem;
+}
+
+.project .more {
+  margin-top: .5rem;
+}

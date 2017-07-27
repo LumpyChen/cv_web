@@ -1,0 +1,29 @@
+.advantage .title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.advantage .compare {
+  color: #FFC408;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.advantage .compare .en {
+  color: #FFC408;
+}
+
+.advantage .know-head {
+  margin-top: .5rem;
+}
+
+.advantage .know {
+  color: #FFC408;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.advantage .know .en {
+  color: #FFC408;
+}

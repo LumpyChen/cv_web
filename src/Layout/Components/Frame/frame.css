@@ -1,0 +1,16 @@
+.frame-container {
+  height: 100%;
+  width: 100%;
+  background-color: #005CAF;
+  display: table;
+  padding: 3rem;
+  position: relative;
+}
+
+.frame {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.education .title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.education .graduate span {
+    color: #FFC408;
+}
+
+.education .college {
+  font-size: 1.2rem;
+}
+
+.education .graduate {
+    margin-bottom: .5rem;
+}
+
+.education .award {
+    font-size: .8rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}

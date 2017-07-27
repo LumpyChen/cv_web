@@ -1,0 +1,27 @@
+html, body, #root, .App, .App>div, .App>div>div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #58B2DC;
+}
+
+* {
+  color: #fff;
+  font-family: PingFang;
+}
+
+.en {
+  font-family: DIN
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+    font-family: DIN;
+    src: url('../static/DIN.otf');
+}

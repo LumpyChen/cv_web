@@ -1,0 +1,34 @@
+.lastpage .title{
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.lastpage .job {
+  color: #FFC408;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.lastpage .job:first-letter {
+  font-size: 1.5rem;
+}
+
+.lastpage .link {
+  line-height: 1.8rem;
+  height: 1.8rem;
+}
+
+.lastpage .download {
+  line-height: 1.8rem;
+  height: 1.8rem;
+}
+
+.lastpage .repo:first-letter {
+  font-size: 1.05rem;
+}
+
+.lastpage .repo {
+  font-size: .7rem;
+  margin: 1rem 0;
+}
