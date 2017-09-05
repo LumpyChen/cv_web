@@ -4,7 +4,6 @@ import './style/reset.css';
 import './style/basic.css';
 import './static/PingFang/PingFang Regular.css'
 import App from './Layout/App';
-import registerServiceWorker from './registerServiceWorker';
 
 const init = (docs, win) => {
   var docEls = docs.documentElement,
@@ -13,7 +12,7 @@ const init = (docs, win) => {
 
   //getBoundingClientRect()这个方法返回一个矩形对象
 
-  window.rem = docEls.getBoundingClientRect().width/45;
+  window.rem = docEls.getBoundingClientRect().width/50;
   docEls.style.fontSize = window.rem + 'px';
 
   };
@@ -25,4 +24,3 @@ const init = (docs, win) => {
 init(document, window)
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();

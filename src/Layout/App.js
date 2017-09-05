@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 import createHistory from 'history/createBrowserHistory'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import Hammer from 'react-hammerjs'
@@ -40,7 +40,7 @@ class Layout extends Component {
     }, false)
   }
   switchPage(dir) {
-    const arr = ['/', '/internship', '/project', '/advantage', '/education', '/lastpage']
+    const arr = ['/firstpage', '/internship', '/project', '/advantage', '/education', '/lastpage']
     let index = 0
     arr.forEach((ele, i) => {
       if (ele === this.props.location.pathname) {
@@ -113,12 +113,13 @@ class Layout extends Component {
           <PageSwitch key={this.props.location.key} classNames={`switch-${this.switch}`}>
             <Frame>
               <Switch key={this.props.location.key} location={this.props.location}>
-                <Route exact path='/' render={(ori=true) => (<HomePage ori={this.ori} />)}/>
                 <Route exact path='/internship' component={Internship}/>
                 <Route exact path='/project' component={Project}/>
                 <Route exact path='/advantage' component={Advantage}/>
                 <Route exact path='/education' component={Education}/>
                 <Route exact path='/lastpage' component={LastPage}/>
+                <Route path='/firstpage' render={(ori=true) => (<HomePage ori={this.ori} />)}/>
+                <Redirect from='*' to='/firstpage'/>
               </Switch>
             </Frame>
           </PageSwitch>

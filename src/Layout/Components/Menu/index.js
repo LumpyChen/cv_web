@@ -4,7 +4,7 @@ import './menu.css'
 
 const Menu = () => (
     <ul className="menuBar">
-      <li><NavLink exact to="/" /></li>
+      <li><NavLink exact to="/firstpage" /></li>
       <li><NavLink to="/internship" /></li>
       <li><NavLink to="/project" /></li>
       <li><NavLink to="/advantage" /></li>

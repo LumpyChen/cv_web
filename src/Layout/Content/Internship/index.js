@@ -16,8 +16,8 @@ const Internship = () => (
       </div>
       <div className="third">
         <div className="date"><span>2016-11</span> 至今</div>
-        <div className="company">百度地图 车生态业务部</div>
-        <div className="work">参与开发 车主聚合页 车主线下加油 车主许愿节（已下线） 等活动 </div>
+        <div className="company">百度地图 地图客户端部</div>
+        <div className="work">参与开发 车主聚合页 在线加油 车主许愿节（已下线） 等项目 </div>
       </div>
     </div>
 )

@@ -11,21 +11,24 @@
 }
 
 .project .container>div {
-  flex: 1 1 8rem;
+  flex: 1 1 12rem;
   margin: .5rem 1rem 0 1rem;
-  max-height: 6rem;
-  overflow: hidden;
 }
 
 .project .container .name {
-  color: #FFC408;
+  color: #FFF;
   font-weight: bold;
+  padding-right: 1.6rem;
   margin-bottom: .4rem;
+  position: relative;
 }
 
 .project .container .icon{
   display: inline-block;
   background-color: #FFC408;
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 1.6rem;
   line-height: 1.6rem;
   text-align: center;
@@ -39,13 +42,15 @@
 }
 
 .project .container .name .en {
-  color: #FFC408;
+  color: #FFF;
 }
 
 .project .container .work {
   font-size: .7rem;
+  text-align: left;
 }
 
 .project .more {
   margin-top: .5rem;
+  color: #FFC408;
 }

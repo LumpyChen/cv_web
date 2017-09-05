@@ -32,3 +32,30 @@
   font-size: .7rem;
   margin: 1rem 0;
 }
+
+.lastpage .qrwrap {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: auto;
+  display: inline-block;
+}
+
+.lastpage .qrwrap span {
+  height: 4.5rem;
+  line-height: 4.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2rem;
+}
+
+.lastpage .qrwrap .qrcode {
+  height: 4.5rem;
+  width: 4.5rem;
+  display: inline-block;
+  background: url('/qr_code.png');
+  background-size: 4rem;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+}
